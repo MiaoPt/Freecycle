@@ -1,0 +1,26 @@
+
+[2026-06-09T11:38:48.690Z ERROR Cannot read properties of undefined (reading 'split')]
+[2026-06-09T11:40:46.941Z ERROR Cannot read properties of undefined (reading 'split')]
+[2026-06-09T11:41:50.477Z ERROR Cannot read properties of undefined (reading 'split')]
+[2026-06-09T11:42:10.844Z SUCCESS New microwave not found!]
+[2026-06-09T11:43:51.921Z SUCCESS New microwave not found!]
+[2026-06-09T11:43:55.805Z SUCCESS New monitor not found!]
+[2026-06-09T11:43:59.956Z SUCCESS New shelves not found!]
+[2026-06-09T11:46:47.224Z SUCCESS New microwave not found!]
+[2026-06-09T11:46:51.141Z SUCCESS New monitor not found!]
+[2026-06-09T11:46:54.716Z SUCCESS New shelves not found!]
+[2026-06-09T11:47:47.225Z ERROR locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+]
+[2026-06-09T11:47:51.246Z ERROR locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('form').filter({ hasText: 'Searching... All My Towns' }).getByRole('button')[22m
+]
+[2026-06-09T11:47:53.716Z ERROR page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://freecycle.org/", waiting until "load"[22m
+]
+[2026-06-09T11:48:10.394Z SUCCESS New microwave not found!]
+[2026-06-09T11:48:13.852Z SUCCESS New monitor not found!]
+[2026-06-09T11:48:19.689Z SUCCESS New shelves not found!]
