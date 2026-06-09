@@ -29,4 +29,5 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           SEARCH_ITEMS: ${{ secrets.SEARCH_ITEMS }}
-        run: node first-script.js
+          EMAIL_RECEIVER: ${{secrets.EMAIl_RECEIVER}}
+        run: node scrape-script.js
