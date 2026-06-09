@@ -30,7 +30,7 @@ function log(message, level = 'INFO') {
 
 //Scrape function
 (async function scrapeFreecycle () {
-    const browser = await chromium.launch({ headless: false });
+    const browser = await chromium.launch({ headless: true });
     try{
         let seenPosts = {};
         
