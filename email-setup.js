@@ -10,14 +10,25 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+
+
+
 //Function to send an email
 async function sendEmail(subject, htmlContent) {
+    const emailUser = process.env.EMAIL_USER;
+    const emailPassword = process.env.EMAIL_PASSWORD;
+    const emailReceiver = process.env.EMAIL_RECEIVER;
     const mailOptions = {
-        from: process.env.EMAIL_USER,
-        to: process.env.EMAIL_RECEIVER,
+        from: emailUser,
+        to: emailReceiver,
         subject: subject,
         html: htmlContent
     };
+
+    if (! emailUser|| ! emailPassword || !emailReceiver) {
+        console.error('ERROR: Email credentials not set in environment variables');
+        process.exit(1);
+    }
 
     try {
         const info = await transporter.sendMail(mailOptions);
