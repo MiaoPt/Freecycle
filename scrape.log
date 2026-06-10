@@ -27,3 +27,81 @@ Call log:
 [2026-06-09T12:30:36.734Z SUCCESS New microwave not found!]
 [2026-06-09T12:30:39.412Z SUCCESS New monitor not found!]
 [2026-06-09T12:30:42.578Z SUCCESS New shelves not found!]
+[2026-06-10T18:53:03.233Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('form').filter({ hasText: 'Searching... All My Towns' }).getByRole('button')[22m
+[2m    - locator resolved to <button type="submit" class="search-icon">…</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="0" role="dialog" id="qc-cmp2-ui" aria-modal="true" class="css-1bh0l3b" aria-label="Privacy">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  13 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div class="">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="0" role="dialog" id="qc-cmp2-ui" aria-modal="true" class="css-1bh0l3b" aria-label="Privacy">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div class="">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="0" role="dialog" id="qc-cmp2-ui" aria-modal="true" class="css-1bh0l3b" aria-label="Privacy">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+]
+[2026-06-10T18:59:53.378Z SUCCESS New microwave not found!]
+[2026-06-10T19:00:17.715Z SUCCESS New shelves not found!]
