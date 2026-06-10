@@ -29,7 +29,7 @@ function log(message, level = 'INFO') {
     }
 
 //Scrape function
-(async function scrapeFreecycle () {
+async function scrapeFreecycle () {
     const browser = await chromium.launch({
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
@@ -138,6 +138,6 @@ function log(message, level = 'INFO') {
         if (browser) await browser.close();
     }
 
-})();
+};
 
 
