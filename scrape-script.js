@@ -3,16 +3,17 @@ const fs = require('fs');
 const { sendEmail } = require('./email-setup.js');
 
 //Scrape every 6 hours
-const cron = require('node-cron');
 
-cron.schedule('0 */6 * * *', async () => {
-    console.log('Run scraper at: ', new Date().toLocaleTimeString());
-    try {
-        await scrapeFreecycle();
-    } catch (error) {
-        console.error('Error in scheduled job:' , error);
-    }
-});
+// const cron = require('node-cron');
+
+// cron.schedule('0 */6 * * *', async () => {
+//     console.log('Run scraper at: ', new Date().toLocaleTimeString());
+//     try {
+//         await scrapeFreecycle();
+//     } catch (error) {
+//         console.error('Error in scheduled job:' , error);
+//     }
+// });
 
 
 // Log function
@@ -29,9 +30,9 @@ function log(message, level = 'INFO') {
     }
 
 //Scrape function
-async function scrapeFreecycle () {
+(async function scrapeFreecycle () {
     const browser = await chromium.launch({
-        headless: true,
+        headless: false,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
     try{
@@ -138,6 +139,6 @@ async function scrapeFreecycle () {
         if (browser) await browser.close();
     }
 
-};
+})();
 
 
