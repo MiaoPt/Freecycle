@@ -33,7 +33,11 @@ function log(message, level = 'INFO') {
 (async function scrapeFreecycle () {
     const browser = await chromium.launch({
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--no-sandbox', 
+            '--disable-setuid-sandbox',
+            '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+            ]
         });
     try{
         let seenPosts = {};
