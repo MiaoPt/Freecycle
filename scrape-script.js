@@ -56,7 +56,10 @@ function log(message, level = 'INFO') {
         for (const searchTerm of searchTerms) {
             try{
                 const page = await browser.newPage();
-                await page.goto('https://freecycle.org/', {timeout: 60000});
+                await page.goto('https://freecycle.org/', {
+                    timeout: 60000,
+                    waitUntil:'domcontentloaded'
+                });
                 const disagreeButton = page.locator('button').filter({ hasText: 'DISAGREE'});
                 if (await disagreeButton.count() > 0) {
                     await disagreeButton.click();
