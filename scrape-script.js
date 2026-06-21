@@ -25,28 +25,47 @@ function log(message, level = 'INFO') {
     try{
         fs.appendFileSync('scrape.log', `\n${logEntry}`)
     } catch (error) {
-        console.error(`${error.message}`, 'Fail to write to log file') 
+        sendEmail('Cannot add to log file', error.message)
         }     
     }
 
+//Retry function
+async function navigateWithRetry(page, url, retries=3) {
+    
+    try {
+        await page.goto(url, {
+            timeout: 60000,
+            waitUntil:'domcontentloaded'
+        });
+    } catch(error) {
+        if(retries > 0) {
+            log(error, `${retries} attemps left`)
+            await new Promise(resolve => setTimeout(resolve, 5000))
+            return navigateWithRetry(page, url, retries-1)
+            
+        } else {
+            await sendEmail('Scraper Error:', error.message);
+        }
+    }
+}
+
 //Scrape function
 (async function scrapeFreecycle () {
-    const browser = await chromium.launch({
-        headless: true,
-        args: [
-            '--no-sandbox', 
-            '--disable-setuid-sandbox',
-            '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-            ]
-        });
+    let browser;
     try{
-        let seenPosts = {};
+        browser = await chromium.launch({
+                headless: false,
+                args: [
+                    '--no-sandbox', 
+                    '--disable-setuid-sandbox',
+                    '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+                    ]
+        });
         
+        let seenPosts = {};
         try {
             const data = fs.readFileSync('seen-posts.json', 'utf8');
-            seenPosts = JSON.parse(data);
-            
-            
+            seenPosts = JSON.parse(data);  
         } catch (error) {
             log(`${error.message}`, 'ERROR');
             seenPosts = {};
@@ -58,12 +77,9 @@ function log(message, level = 'INFO') {
         let newPostsTotal = 0;
 
         for (const searchTerm of searchTerms) {
+            const page = await browser.newPage();
             try{
-                const page = await browser.newPage();
-                await page.goto('https://freecycle.org/', {
-                    timeout: 60000,
-                    waitUntil:'domcontentloaded'
-                });
+                await navigateWithRetry(page, 'https://freecycle.org/')
                 const disagreeButton = page.locator('button').filter({ hasText: 'DISAGREE'});
                 if (await disagreeButton.count() > 0) {
                     await disagreeButton.click();
@@ -137,7 +153,6 @@ function log(message, level = 'INFO') {
         emailHtml += '</ol>';
         if (newPostsTotal > 0 ) {
             await sendEmail(emailSubject, emailHtml);
-            await browser.close();
         } 
 
     } catch (error) {
