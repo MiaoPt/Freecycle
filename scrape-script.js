@@ -49,18 +49,29 @@ async function navigateWithRetry(page, url, retries=3) {
     }
 }
 
+//login function
+// async function login(page){
+//     try {
+        
+
+//     } catch(error) {
+
+//     }
+// }
+
 //Scrape function
 (async function scrapeFreecycle () {
     let browser;
     try{
         browser = await chromium.launch({
-                headless: false,
+                headless: true,
                 args: [
                     '--no-sandbox', 
                     '--disable-setuid-sandbox',
                     '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
                     ]
         });
+        
         
         let seenPosts = {};
         try {
@@ -78,8 +89,10 @@ async function navigateWithRetry(page, url, retries=3) {
 
         for (const searchTerm of searchTerms) {
             const page = await browser.newPage();
+            
             try{
                 await navigateWithRetry(page, 'https://freecycle.org/')
+                await page.pause();
                 const disagreeButton = page.locator('button').filter({ hasText: 'DISAGREE'});
                 if (await disagreeButton.count() > 0) {
                     await disagreeButton.click();

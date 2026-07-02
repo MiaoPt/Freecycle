@@ -105,3 +105,257 @@ Call log:
 ]
 [2026-06-10T18:59:53.378Z SUCCESS New microwave not found!]
 [2026-06-10T19:00:17.715Z SUCCESS New shelves not found!]
+[2026-06-20T08:44:29.821Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    54 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T08:45:02.750Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    55 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T08:46:54.515Z SUCCESS New microwave not found!]
+[2026-06-20T08:46:57.113Z SUCCESS New monitor not found!]
+[2026-06-20T08:47:00.101Z SUCCESS New shelves not found!]
+[2026-06-20T10:25:25.710Z ERROR page is not defined]
+[2026-06-20T10:25:27.396Z ERROR page is not defined]
+[2026-06-20T10:25:28.687Z ERROR page is not defined]
+[2026-06-20T10:27:48.849Z ERROR page is not defined]
+[2026-06-20T10:27:50.479Z ERROR page is not defined]
+[2026-06-20T10:27:52.078Z ERROR page is not defined]
+[2026-06-20T10:30:08.170Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    54 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T10:30:41.118Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    52 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T10:30:45.547Z SUCCESS New shelves not found!]
+[2026-06-20T10:32:02.108Z SUCCESS New microwave not found!]
+[2026-06-20T10:32:32.744Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    55 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T10:33:04.584Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    56 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T10:34:58.463Z SUCCESS New microwave not found!]
+[2026-06-20T10:35:07.093Z SUCCESS New monitor not found!]
+[2026-06-20T10:35:09.029Z SUCCESS New shelves not found!]
+[2026-06-20T13:47:18.161Z ERROR locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Offer', { exact: true })[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+[2m    - locator resolved to <span class="text-offer">Offer</span>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    54 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div height="720" class="qc-cmp-cleanslate css-8s9x6p">…</div> from <div data-nosnippet="" id="qc-cmp2-container" class="qc-cmp2-container">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+]
+[2026-06-20T13:47:21.124Z SUCCESS New monitor not found!]
+[2026-06-20T13:47:22.555Z SUCCESS New shelves not found!]
+[2026-06-20T15:18:08.838Z SUCCESS New microwave not found!]
+[2026-06-20T15:18:11.169Z SUCCESS New monitor not found!]
+[2026-06-20T15:18:14.163Z SUCCESS New shelves not found!]
+[2026-06-20T15:20:25.320Z SUCCESS New microwave not found!]
+[2026-06-20T15:20:33.463Z SUCCESS New monitor not found!]
+[2026-06-20T15:20:36.294Z SUCCESS New shelves not found!]
+[2026-06-20T15:43:02.392Z SUCCESS New microwave not found!]
+[2026-06-20T15:43:04.580Z SUCCESS New monitor not found!]
+[2026-06-20T15:43:12.115Z SUCCESS New shelves not found!]
+[2026-06-20T15:48:09.759Z SUCCESS New microwave not found!]
+[2026-06-20T15:48:12.036Z SUCCESS New monitor not found!]
+[2026-06-20T15:48:14.786Z SUCCESS New shelves not found!]
+[2026-06-23T13:53:15.384Z ERROR page is not defined]
+[2026-06-23T13:54:49.290Z 3 attemps left Error: page.goto: Target page, context or browser has been closed]
+[2026-06-23T13:54:54.929Z 2 attemps left Error: page.goto: Target page, context or browser has been closed]
+[2026-06-24T17:51:13.240Z ERROR locator.count: Target page, context or browser has been closed]
+[2026-06-24T17:51:19.673Z ERROR locator.count: Target page, context or browser has been closed]
+[2026-06-24T17:51:22.372Z ERROR locator.count: Target page, context or browser has been closed]
