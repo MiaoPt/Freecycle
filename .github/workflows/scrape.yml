@@ -1,9 +1,9 @@
 name: FreeCycle Scraper
 
 on:
-  schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+  # schedule:
+  #   # Run every 6 hours
+  #   - cron: '0 */6 * * *'
   # Allows you to run manually from GitHub UI
   workflow_dispatch:
 
